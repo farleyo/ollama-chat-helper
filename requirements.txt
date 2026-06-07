@@ -1,0 +1,14 @@
+# ollama-chat-helper 依赖清单
+# 安装: pip install -r requirements.txt
+
+# HTTP 客户端 (调 Ollama REST API)
+requests>=2.31.0
+
+# 配置文件读取 (.env)
+python-dotenv>=1.0.0
+
+# 网页 UI (阶段 3)
+streamlit>=1.30.0
+
+# 测试 (阶段 3)
+pytest>=7.4.0
